@@ -71,3 +71,8 @@ module For_tests = struct
   module Action_unexpanded = Action_unexpanded
   module Jsoo_rules = Jsoo_rules
 end
+
+module Kune = struct
+  module Kune_stanzas = Kune_stanzas
+  let () = Kune_stanzas.load()
+end
